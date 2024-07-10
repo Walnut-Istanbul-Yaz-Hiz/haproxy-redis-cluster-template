@@ -27,10 +27,4 @@ docker exec -it redis-slave-4 bash -c "redis-cli slaveof 10.0.0.2 6379"
 docker exec -it redis-slave-5 bash -c "redis-cli slaveof 10.0.0.2 6379"
 docker exec -it redis-slave-6 bash -c "redis-cli slaveof 10.0.0.2 6379"
 
-REM Test the redis cluster
-REM docker exec -it redis-slave-2 bash -c "redis-cli subscribe chat"
-REM docker exec -it redis-slave-3 bash -c "redis-cli subscribe chat"
-REM docker exec -it redis-slave-4 bash -c "redis-cli subscribe chat"
-REM docker exec -it redis-slave-5 bash -c "redis-cli subscribe chat"
-REM docker exec -it redis-slave-6 bash -c "redis-cli subscribe chat"
-REM docker exec -it redis-master-1 bash -c "redis-cli publish chat 'hello world'"
+REM README.md for more
